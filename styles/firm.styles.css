@@ -16,15 +16,17 @@ header {
 }
 
 header img {
-    height: 50px;
+    max-width: 200px;
+    height: auto;
     vertical-align: middle;
 }
 
-header h1 {
+.page-title {
     display: inline;
     font-size: 24px;
     margin-left: 10px;
-}
+  }
+  
 
 /* ----- Main Content ----- */
 main {
@@ -56,3 +58,9 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+.page-title {
+    display: inline;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
